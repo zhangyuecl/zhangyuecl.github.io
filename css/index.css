@@ -1,6 +1,6 @@
 *{margin:0;padding: 0;}
 body,html{font-family: "微软雅黑";font-size: 14px;}
-.headIcon_box img {width: 100%;border: 2px solid #fff;}
+.headIcon_box img {width: 100%;border: 2px solid #fff;max-width: 325px;}
 i.icon{color: #4297e0;margin: 0 8px 0 5px;font-size: 16px;vertical-align: middle;}
 .info_list,.time_span,.name_span,.content,.cate{line-height: 2.5;}
 .clearfix:after { content: "."; display: block; height: 0; clear: both;visibility: hidden;}
@@ -16,6 +16,8 @@ h4{text-align: center;height: 10px;border-bottom: 1px solid #eee;margin-bottom: 
 .float_downLoad{position:fixed;right: 0;top:30%;}
 .float_downLoad a{text-decoration: none;}
 .float_downLoad span{padding: 10px;font-size: 18px;background-color: #4297e0;color: #fff;width: 38px;display: block;}
+.pro_experience .note{}
+.note i.icon{color: #f93838;}
 @media (max-width: 768px) {
 	.name_span{text-align: left;}
 }
