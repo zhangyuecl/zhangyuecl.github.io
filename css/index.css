@@ -1,0 +1,7 @@
+*{margin:0;padding: 0;}
+body,html{font-family: "微软雅黑";font-size: 14px;}
+.headIcon_box img {width: 100%;border: 2px solid #fff;}
+i.icon{color: #4297e0;margin: 0 8px 0 5px;font-size: 16px;vertical-align: middle;}
+.info_list{line-height: 2.5;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both;visibility: hidden;}
+.container .jumbotron,.container{border-radius: 0;}
