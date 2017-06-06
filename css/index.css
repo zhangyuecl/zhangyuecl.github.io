@@ -5,7 +5,7 @@ i.icon{color: #4297e0;margin: 0 8px 0 5px;font-size: 16px;vertical-align: middle
 .info_list,.time_span,.name_span,.content,.cate{line-height: 2.5;}
 .clearfix:after { content: "."; display: block; height: 0; clear: both;visibility: hidden;}
 .container .jumbotron,.container{border-radius: 0;overflow: hidden;}
-.experience{background-color: transparent;padding-top: 0;margin-bottom: 0;}
+.experience,.pro_experience{background-color: transparent;padding-top: 0;margin-bottom: 0;}
 .head_text{background-color: #eee;padding: 5px 25px;text-align: center;border-radius:25px;}
 h4{text-align: center;height: 10px;border-bottom: 1px solid #eee;margin-bottom: 30px;}
 .skill_list{margin-bottom: 0;}
@@ -13,6 +13,9 @@ h4{text-align: center;height: 10px;border-bottom: 1px solid #eee;margin-bottom: 
 .skill_list li span{padding: 5px 10px;background-color: #4297e0;border-radius: 15px;}
 .cate{font-size: 16px;}
 .cate .icon{color: #ccc;}
+.float_downLoad{position:fixed;right: 0;top:30%;}
+.float_downLoad a{text-decoration: none;}
+.float_downLoad span{padding: 10px;font-size: 18px;background-color: #4297e0;color: #fff;width: 38px;display: block;}
 @media (max-width: 768px) {
 	.name_span{text-align: left;}
 }
